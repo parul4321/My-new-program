@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-heading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.csi-logo{
+    padding-right: 10px;
+}
+.nav-items{
+    display: flex;
+
+}
+.nav-items a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: black;
+}
+.blog-button button{
+    background-color: #3c87ff;
+    width: 130px;
+    height: 38px;
+    border-radius: 50px;
+    color: white;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
